@@ -1,0 +1,35 @@
+.slider{
+    position: relative;
+}
+.slider-content{
+    display: flex;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+   
+
+
+}
+.slider-content::-webkit-scrollbar {
+    display: none;
+  }
+.slider-Wraper{
+    position: relative;
+}
+.next,.prev{
+    position: absolute;
+    z-index: 300;
+    top:50%;
+    background-color: white;
+    color: orange;
+    padding:6px 10px;
+    border:1px solid orange ;
+    border-radius: 6px;
+
+}
+.next{
+    right: 0;
+    transform: translate(50%,-50%);
+}
+.prev{
+    transform: translate(-50%, -50%);
+}

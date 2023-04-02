@@ -1,0 +1,42 @@
+@font-face {
+    font-family: mono;
+    src: url("../../../public/assets/fonts/Alkatra-VariableFont_wght.ttf");
+  }
+@font-face {
+    font-family: lora;
+    src: url("../../../public/assets/fonts/Lora-Italic-VariableFont_wght.ttf");
+  }
+.jumbotron{
+ 
+    padding-top: 75px;
+    font-family: mono;
+    text-align: center;
+    color: white;
+    height: 85vh;
+    background-image: url('./f87c3242-fc12-4e6d-ac1a-e0a4d1d086d5.jpg');
+    background-size: cover;
+}
+.jumbotron h1 {
+    margin: 0;
+    font-size: 36px;
+}
+.jumbotron p{
+    margin-top: 0; 
+    font-size: 24px;
+    font-family: lora;
+}
+.jumbotron .image-container{
+    height: 450px;
+    width: 450px;
+    margin: 20px auto;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 900px) {
+    .jumbotron .image-container{
+        width: 90vw;
+        height:auto;
+    }
+  }

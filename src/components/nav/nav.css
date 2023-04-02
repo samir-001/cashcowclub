@@ -1,0 +1,57 @@
+@font-face {
+    font-family: lora;
+    src: url("../../../public/assets/fonts/Lora-Italic-VariableFont_wght.ttf");
+  }
+  .nav{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.76);
+    z-index: 999;
+    box-shadow: 5px 5px 10px #00000027;
+  }
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    padding: 6px 10px;
+
+}
+.nav-links{
+    padding: 0;
+  
+}
+.nav-item{
+    list-style: none;
+    display: inline-block;
+    
+}
+.nav-link{
+    padding: 6px 10px;
+    text-decoration: none;
+    font-family: lora;
+
+}
+
+.nav-link:hover ,.active {
+border-bottom: 2px solid #F24405  ;
+color: #F24405;
+
+}
+.active{
+    font-weight: bold;
+}
+@media only screen and (max-width: 900px) {
+    .nav-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    ul{
+       height: auto;
+      margin-top:0 ;
+    }
+  }

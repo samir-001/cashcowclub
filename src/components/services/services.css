@@ -1,0 +1,35 @@
+.services{
+    height:100px;
+}
+.services-content{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+.service{
+    background-color: white;
+    min-width: 60px;
+    color: #F24405;
+    border: 2px solid #F24405;
+    text-align: center;
+    padding: 15px  15px;
+    border-left: 0;
+    font-family: lora;
+    font-weight: bold;
+}
+.service p {
+    margin: 0px;
+}
+.service:hover{
+    color: white;
+    background-color: #F24405
+
+}
+div.service:first-child{
+    border-left: 2px solid #F24405;
+    border-radius: 10px 0 0 10px;
+}
+div.service:last-child{
+   
+    border-radius: 0px 10px 10px 0px ;
+}
